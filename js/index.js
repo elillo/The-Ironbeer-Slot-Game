@@ -9,7 +9,7 @@ var Slot = function (id, fase) {
     //introduzco las imagenes en las arrays del constructor con su fase asociada y su id(0,1,2...)
 
     for (var i = 0; i < this.numImage; i++) {
-        this.images.push("../images/Slot/" + fase + i + ".jpeg")
+        this.images.push("images/Slot/" + fase + i + ".jpeg")
     }
 
     //Introduzco en las secciones del html los divs coincidentes con la fase en la que estemos y llamo a la funcion create.
